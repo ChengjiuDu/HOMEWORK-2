@@ -1,0 +1,55 @@
+Question No.1 
+
+const addNums = () => {
+    let num1 = document.getElementById("num1").value;
+    let num2 = document.getElementById("num2").value;
+    let sum = parseInt(num1, 10)+parseInt(num2, 10);
+    document.getElementById("result").innerHTML =sum;
+};
+
+
+
+- In this code, addNums() is the function keyword, the code between the curly braces is the code that the function executes. 
+
+- In the beginning of the code, there’s a const, and it represents constants. Constants are block-scoped, much like variables defined using the let statement. The value of a constant can't be changed through reassignment, and it can't be redeclared. 
+
+- Arrow functions like this => are anonymous and change the way this binds in functions. Arrow functions make our code more concise, and simplify function scoping and the this keyword. 
+
+- The let statement declares a block scope local variable, optionally (immediately) initializing it to a value.
+
+- getElementById(): it is a DOM method used to return the element that has the ID attribute with the specified value. This is one of the most common methods in the HTML DOM and is used almost every time we want to manipulate an element on our document. This method returns null if no elements with the specified ID exists.
+
+- The parseInt() function parses a string argument and returns an integer of the specified radix (the base in mathematical numeral systems).
+
+- value: it is the value attribute inherent in the input.tag.
+
+- innerHTML: change the content of the innerHTML of the span element from “Result here” to the product of the multiplyNums function.
+
+Question No.2
+
+Three words that I have checked are $monkey, _baby, and boss. They are all passed because An identifier must start with dollar sign, underscore or any character in the Unicode categories
+
+Question No.3
+
+Question No.4
+
+Global variables are variables defined outside a function
+Example：
+
+int a =4; 
+int b=5; 
+public int add(){ 
+return a+b; 
+}
+Here, 'a' and 'b' are global variables.
+
+Local variables are variables defined within a function
+Example 
+
+public int add(){ 
+int a =4; 
+int b=5; 
+return a+b; 
+}
+Here, 'a' and 'b' are local variables
+
